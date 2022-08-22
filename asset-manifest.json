@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/metro-moscow/static/css/main.8853b156.css",
+    "main.js": "/metro-moscow/static/js/main.4884f81e.js",
+    "static/media/карта333.svg": "/metro-moscow/static/media/карта333.e62eb8a0a2bf9e02c82b84ce8da60c31.svg",
+    "index.html": "/metro-moscow/index.html",
+    "main.8853b156.css.map": "/metro-moscow/static/css/main.8853b156.css.map",
+    "main.4884f81e.js.map": "/metro-moscow/static/js/main.4884f81e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8853b156.css",
+    "static/js/main.4884f81e.js"
+  ]
+}
