@@ -1,0 +1,112 @@
+.lines.active {
+    opacity: 1!important;
+    transition: .55s;
+}
+.MapMetro_wrap.active #texts,
+.MapMetro_wrap.active .lines{
+    opacity: 0.1;
+    transition: .55s;
+}
+.MapMetro_wrap .lines:hover {
+    opacity: 0.6;
+    transition: .55s;
+}
+.MapMetro_wrap svg > g{
+   cursor: pointer;
+}
+.legend_color{
+    width: 50px;
+    height: 15px;
+}
+.color1{
+    background: rgb(209, 74, 67);
+}
+.color2{
+    background: rgb(75, 175, 79);
+}
+.color3{
+    background: rgb(5, 114, 185);
+}
+.color4{
+    background: rgb(36, 188, 239);
+}
+.color5{
+    background: rgb(146, 82, 51);
+}
+.color6{
+    background: rgb(239, 126, 36);
+}
+.color7{
+    background: rgb(148, 63, 144);
+}
+.color8{
+    background: rgb(255, 205, 30);
+}
+.color8A{
+    background: rgb(255, 205, 30);
+}
+.color9{
+    background: rgb(173, 172, 172);
+}
+.color10{
+    background: rgb(190, 209, 46);
+}
+.color11{
+    background: rgb(137, 205, 207);
+}
+.color12{
+    background: rgb(186, 200, 232);
+}
+.color13{
+    background: rgb(5, 114, 185);
+
+    width:calc(50px - 10px);
+    height: calc(15px - 10px);
+    border: 5px solid rgb(177, 202, 220);
+}
+.color14{
+    background: white;
+    width:calc(50px - 10px);
+    height: calc(15px - 10px);
+    border: 5px solid rgb(209, 74, 67);
+
+}
+.color15{
+    background: rgb(214, 138, 177);
+}
+.legend_wrap{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    grid-gap: 10px;
+}
+.legend_items{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    grid-gap: 10px;
+    cursor: pointer;
+
+}
+.legend_items span:first-child{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 70%);
+    box-shadow:  2px 2px 2px rgb(0 0 0 / 70%);;
+}
+.legend_items:hover span:last-child{
+    text-decoration: underline;
+
+}
+
